@@ -1,0 +1,115 @@
+body {
+  background-image: linear-gradient(rgb(0, 176, 189), white);
+
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+  max-width: 350px;
+  max-height: 100%;
+
+  /* Center the container in middle on horizontal axis */
+  margin: 0 auto;
+
+  /* Add empty space above the container (20% of the view height) */
+  margin-top: 10vh;
+
+  /* Change background color */
+  background-color: rgb(230, 230, 230);
+
+  /* Add border */
+  border: 5px solid #ffbd2f;
+
+  /* Add space between the border and the content */
+  padding: 15px;
+
+  border-radius: 5%;
+}
+
+.information {
+  font-size: px;
+}
+
+button {
+  border: none 10px;
+  padding: 15px 15px;
+  border-radius: 50px;
+  margin-left: 25px;
+  font-size: 20px;
+
+  color: #ffffff;
+  background-color: #0044fd;
+}
+
+input {
+  border: none 10px;
+  padding: 9px;
+  border-radius: 20px;
+  width: 250px;
+  font-weight: 600;
+  color: #666666;
+  background-color: #ffffff;
+}
+
+.temp {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.humidity {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wind {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.name {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.thermo {
+  color: #fdc200;
+  text-align: center;
+  font-size: 40px;
+}
+
+.water {
+  color: #0044fd;
+  text-align: center;
+  font-size: 40px;
+}
+
+.gust {
+  color: #016606;
+  text-align: center;
+  font-size: 40px;
+}
+.pin {
+  color: #c40000;
+  text-align: center;
+  font-size: 40px;
+}
+
+footer {
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+}
